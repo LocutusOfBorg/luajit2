@@ -847,7 +847,8 @@ static uint32_t jit_cpudetect(void)
 #endif
 #elif LJ_TARGET_S390X
   /* No optional CPU features to detect (for now). */
-
+#elif LJ_TARGET_LOONGARCH64
+  /* No optional CPU features to detect (for now). */
 #elif LJ_TARGET_RISCV64
 #if LJ_HASJIT
 
